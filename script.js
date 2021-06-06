@@ -152,7 +152,7 @@ for (var i = 0; i < radiologiaPacientes.length; i++) {
 
 document.getElementById("radiologia-tabla").innerHTML = pacientesRad;
 
-document.getElementById("primer-ultimo-rad").innerHTML = (`<p>Primera Atención: ${radiologiaPacientes[0].paciente} - ${radiologiaPacientes[0].prevision} | Última atención: ${radiologiaPacientes[i-1].paciente} - ${radiologiaPacientes[0].prevision}</p> <br>`);
+document.getElementById("primer-ultimo-rad").innerHTML = (`<p>Primera Atención: ${radiologiaPacientes[0].paciente} - ${radiologiaPacientes[0].prevision} | Última atención: ${radiologiaPacientes[i-1].paciente} - ${radiologiaPacientes[i-1].prevision}</p> <br>`);
 
 //ciclo traumatologia
 var pacientesTrau = `<tr>
@@ -175,7 +175,7 @@ for (var i = 0; i < traumatologiaPacientes.length; i++) {
 
 }
 document.getElementById("traumatologia-tabla").innerHTML = pacientesTrau;
-document.getElementById("primer-ultimo-trau").innerHTML = (`<p>Primera Atención: ${traumatologiaPacientes[0].paciente} - ${traumatologiaPacientes[0].prevision} | Última atención: ${traumatologiaPacientes[i-1].paciente} - ${traumatologiaPacientes[0].prevision}</p> <br>`);
+document.getElementById("primer-ultimo-trau").innerHTML = (`<p>Primera Atención: ${traumatologiaPacientes[0].paciente} - ${traumatologiaPacientes[0].prevision} | Última atención: ${traumatologiaPacientes[i-1].paciente} - ${traumatologiaPacientes[i-1].prevision}</p> <br>`);
 
 
 //cilco dental
@@ -200,4 +200,4 @@ for (var i = 0; i < dentalPacientes.length; i++) {
 
 document.getElementById("dental-tabla").innerHTML = pacientesDen;
 
-document.getElementById("primer-ultimo-dental").innerHTML = (`<p>Primera Atención: ${dentalPacientes[0].paciente} - ${dentalPacientes[0].prevision} | Última atención: ${dentalPacientes[i-1].paciente} - ${dentalPacientes[0].prevision}</p> <br>`);
+document.getElementById("primer-ultimo-dental").innerHTML = (`<p>Primera Atención: ${dentalPacientes[0].paciente} - ${dentalPacientes[0].prevision} | Última atención: ${dentalPacientes[i-1].paciente} - ${dentalPacientes[i-1].prevision}</p> <br>`);
