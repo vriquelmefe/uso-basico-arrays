@@ -181,7 +181,7 @@ document.getElementById("primer-ultimo-trau").innerHTML = (`<p>Primera Atención
 //cilco dental
 var pacientesDen = `<tr>
  <th>Hora</th>
- <th>Espercialista</th>
+ <th>Especialista</th>
  <th>Paciente</th>
  <th>Rut</th>
  <th>Previsión</th>
